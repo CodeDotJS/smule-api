@@ -1,0 +1,47 @@
+{
+  "name": "smule-api",
+  "version": "1.0.0",
+  "description": "A simple API for Smule",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedotjs/smule-api.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "unofficial",
+    "smule",
+    "api",
+    "fetch",
+    "songs",
+    "videos",
+    "audio-url",
+    "video-url",
+    "scrap"
+  ],
+  "dependencies": {
+    "got": "5.6.0",
+    "pinkie-promise": "2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.15.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "bugs": {
+    "url": "https://github.com/codedotjs/smule-api/issues"
+  },
+  "homepage": "https://github.com/codedotjs/smule-api#readme",
+  "main": "index.js",
+}
