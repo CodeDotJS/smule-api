@@ -43,5 +43,5 @@
     "url": "https://github.com/codedotjs/smule-api/issues"
   },
   "homepage": "https://github.com/codedotjs/smule-api#readme",
-  "main": "index.js",
+  "main": "index.js"
 }
